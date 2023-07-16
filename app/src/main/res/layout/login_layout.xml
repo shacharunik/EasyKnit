@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    android:layout_marginTop="20dp"
+    tools:context=".Login">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/icon"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textSize="42sp"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/login_EDIT_email"
+            android:layout_marginTop="40dp"
+            android:padding="8dp"
+            android:hint="Email"
+            android:textColor="@color/black"
+            android:drawablePadding="8dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/login_EDIT_password"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:hint="Password"
+            android:textColor="@color/black"
+            android:drawablePadding="8dp"/>
+
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:text="Login"
+            android:id="@+id/login_BTN_login"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            app:cornerRadius = "20dp"/>
+
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:text="Sign Up"
+            android:id="@+id/login_BTN_signUP"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+
+            app:cornerRadius = "20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

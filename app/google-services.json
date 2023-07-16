@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "637407898947",
+    "project_id": "easy-knit",
+    "storage_bucket": "easy-knit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637407898947:android:d990590975990b9e7853f6",
+        "android_client_info": {
+          "package_name": "com.shacharunik.EasyKnit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637407898947-s4gcrjhs7dlm45lq2vnod9oeo9dtp4sf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_jLpmzk1zQZAyGwqMmgLTPOtGbzawVIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637407898947-s4gcrjhs7dlm45lq2vnod9oeo9dtp4sf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
